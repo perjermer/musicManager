@@ -1,0 +1,97 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+}
+
+#body {
+  width: 100%;
+  height: auto 100%;
+  min-height: 100%;
+}
+
+#container {
+  height: 100%;
+  width: 70%;
+  margin: 0px auto;
+  background-color: #FFF;
+  box-shadow: 0px -10px 100px 1px #211f1f;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+tr {
+  border-radius: 10px;
+}
+
+table, th, td, tr {
+  text-align: center;
+  border: none;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+th {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+#footer {
+  position:absolute;
+  bottom:0;
+  width:70%;
+  height:60px;
+}
+
+legend {
+  width: 150px;
+}
+
+fieldset {
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  display: inline;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+}
+
+.search-artist, .search-track, .search-album {
+  margin: 2% 2%;
+}
+
+.add-button {
+  text-align: center;
+  display: inline-block;
+  margin: 2% 2%;
+}
+
+.button {
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 2px;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 2%;
+  cursor: pointer;
+}
+
+.form-group {
+  marging-bottom: 2%;
+}
+
+#metrics, .title {
+  margin: 2%;
+}
